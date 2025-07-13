@@ -47,6 +47,8 @@ python mysql_to_sqlite.py ~/db/posts-ready.sql ~/db/posts-sqlite.db
   Install with:  
   ```sh
   pip install sqlparse
+  OR
+  pip install requirements.txt
   ```
 
 ---
