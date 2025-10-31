@@ -101,9 +101,9 @@ def convert_sql_file(mysql_dump_file: str, sqlite_output_file: str):
                 print("⚠️ Executing SQL:\n" + format_sql_block(s) + "\n")
                 cursor.executescript(s + (';' if not s.endswith(';') else ''))
         conn.commit()
-        print(f"✅ Converted and saved to {sqlite_output_file}")
+        print(f" Converted and saved to {sqlite_output_file}")
     except sqlite3.Error as e:
-        print(f"❌ SQLite error: {e}")
+        print(f" SQLite error: {e}")
     finally:
         conn.close()
 
