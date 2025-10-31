@@ -1,7 +1,7 @@
 # 🐬 MySQL to SQLite Converter 🐿️
 
 A Python command-line tool that converts a MySQL `.sql` dump file into a working SQLite `.db` database file.  
-Perfect for quickly migrating small databases or prototyping with SQLite!
+Perfect for quickly migrating small databases or prototyping with SQLite.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue?logo=python" alt="Python">
